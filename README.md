@@ -22,8 +22,7 @@ iterate.
 
 2. The consultancy form was relatively simple in regards to handling data, not 
 much complexity so I opted not to go for a
-Global state management solution 
-nor data persistence across page reloads.
+Global state management solution nor data persistence across page reloads.
 
 I feel like making state local to the component
 allows state to be managed within the 

@@ -21,12 +21,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className,"h-screen flex flex-col justify-between")}>
+      <body
+        className={cn(
+          inter.className,
+          "h-screen flex flex-col justify-between"
+        )}
+      >
         <Providers>
-        <ConsultancyModal/>
-        <Header/>
-        {children}
-        <Footer/>
+          <ConsultancyModal />
+          <Header />
+          {children}
+          <Footer />
         </Providers>
       </body>
     </html>

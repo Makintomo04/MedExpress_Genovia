@@ -1,19 +1,18 @@
-"use client"
-import React, { Dispatch, FC, SetStateAction, useState } from 'react'
-import { ModalContext } from './modalContext'
+"use client";
+import React, { FC, useState } from "react";
+import { ModalContext } from "./modalContext";
 
 interface IProviderProps {
-    children: React.ReactNode
+  children: React.ReactNode;
 }
 
-
-const Providers:FC<IProviderProps> = ({children}) => {
-    const [isOpen, setIsOpen] = useState(false)
+const Providers: FC<IProviderProps> = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <ModalContext.Provider value={{isOpen,setIsOpen}}>
-        {children}
+    <ModalContext.Provider value={{ isOpen, setIsOpen }}>
+      {children}
     </ModalContext.Provider>
-  )
-}
+  );
+};
 
-export default Providers
+export default Providers;
