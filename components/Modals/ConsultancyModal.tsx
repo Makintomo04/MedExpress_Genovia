@@ -203,7 +203,7 @@ const ConsultancyModal = () => {
         q={STEPS.Q5}
         id={Q5}
         name="Q5"
-        question="Do you have high blood pressure (above 160/90), or are you currently on treatment for high blood pressure?"
+        question="Do you smoke or drink?"
         errors={errors}
       />
     );
