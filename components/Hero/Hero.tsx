@@ -28,7 +28,6 @@ const Hero = () => {
           Start Free Consultancy
         </Button>
       </div>
-      {/* <Image src="/images/hero_photo.jpg" alt="hero" layout="fill" objectFit="cover" objectPosition="top left" className="absolute inset-0 z-[-1] opacity-100"/> */}
     </section>
   );
 };

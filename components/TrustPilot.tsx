@@ -11,6 +11,7 @@ const TrustPilot = () => {
         width={100}
         height={50}
         alt="trustpilot"
+        className="w-auto h-auto"
       />
       <div className="flex items-center mt-1" aria-label="5 star rating">
         <div className="flex relative gap-x-[1px] tablet:gap-x-0.5">
