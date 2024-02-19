@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Crown } from "lucide-react";
 
 interface FooterProps {}
 
@@ -17,6 +18,11 @@ const Footer: FC<FooterProps> = ({}) => {
             </li>
             <li>
               <a className="hover:underline cursor-pointer">Press</a>
+            </li>
+            <li>
+              <a className="hover:underline cursor-pointer">
+                <Crown />
+              </a>
             </li>
           </ul>
           {/* <ul className="flex gap-2 sm:flex-col">
