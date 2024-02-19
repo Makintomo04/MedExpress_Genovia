@@ -6,6 +6,7 @@ Technologies Used:
 - Next JS
 - Typescript
 - TailwindCSS & ShadCN (Component Library)
+- Context API
 - React Hook form
 - SWR and Axios used to fetch from randomuser.me 
 api endpoint to grab fake Intendent Pharmacist.
